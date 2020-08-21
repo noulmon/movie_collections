@@ -167,14 +167,14 @@ example:
         }
 
 #### Request Counter APIs:
-##### 1. Get request count ```<base_url>/request-count/```
+##### 1. Get request count ```<base_url>/request-count/``` [GET]
    Response:
    
        {
         "requests": <request_count>
        }
 
-##### 2. Reset request count ```<base_url>/request-count/reset/```
+##### 2. Reset request count ```<base_url>/request-count/reset/``` [POST]
    Response:
    
        {
