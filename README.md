@@ -159,7 +159,7 @@ example:
         "collection_uuid": <collection_uuid>
         }
         
-##### 5. Update collection details ```<base_url>/movies/collection/<collection_uuid>``` [DELETE]
+##### 6. Update collection details ```<base_url>/movies/collection/<collection_uuid>``` [DELETE]
    Response:
    
         {
@@ -174,7 +174,7 @@ example:
         "requests": <request_count>
        }
 
-##### 1. Reset request count ```<base_url>/request-count/reset/```
+##### 2. Reset request count ```<base_url>/request-count/reset/```
    Response:
    
        {
