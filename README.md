@@ -26,12 +26,6 @@ _**MOVIE COLLECTIONS**_ is a collection creating application where the user can 
 
 ## API Endpoints:
 
-(**_`Note: Please add the 'user token' as the 'Authorization Header' for all below APIs`_**)
-
-example:
-    
-    Authorization: 'Token <jwt_token>
-
 #### User APIs:
 ##### 1. User Registration: ```<base_url>/user/register/``` [POST]
 
@@ -62,6 +56,14 @@ example:
     {
        "access_token": <access_token>
     }
+_____
+
+**_`Note: Please add the 'user token' as the 'Authorization Header' for all below APIs`_**)
+
+
+example:
+    
+    Authorization: 'Token <jwt_token>
 
 #### Movie APIs:
 ##### 1. Movie list: ```<base_url>/movies/list/``` [GET]
