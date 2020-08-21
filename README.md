@@ -159,7 +159,7 @@ example:
         "collection_uuid": <collection_uuid>
         }
         
-##### 6. Update collection details ```<base_url>/movies/collection/<collection_uuid>``` [DELETE]
+##### 6. Delete collection details ```<base_url>/movies/collection/<collection_uuid>``` [DELETE]
    Response:
    
         {
