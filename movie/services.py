@@ -1,5 +1,3 @@
-''' Service class provides the encapsulates the business logic '''
-
 from rest_framework.response import Response
 
 from movie.models import UserMovieCollection
