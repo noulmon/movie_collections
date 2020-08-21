@@ -1,3 +1,5 @@
+''' Service class provides the encapsulates the business logic '''
+
 from rest_framework.response import Response
 
 from movie.models import UserMovieCollection
@@ -27,7 +29,8 @@ class MovieService:
     def list(self, request):
         # fetching movie collection list for the user
         queryset = UserMovieCollection.objects.prefetch_related('collection_movies').filter(user=request.user,
-                                                                                            is_delete=False, is_active=True)
+                                                                                            is_delete=False,
+                                                                                            is_active=True)
         serializer = MovieCollectionSerializer(queryset, many=True)
         return Response({
             'is_success': True,

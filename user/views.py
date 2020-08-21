@@ -1,9 +1,7 @@
 from rest_framework.permissions import AllowAny, IsAuthenticated
-from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
-from user.models import RequestCount
 from user.services import UserService, RequestCounterService
 
 user_service = UserService()

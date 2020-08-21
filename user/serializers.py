@@ -1,3 +1,5 @@
+''' Service class provides the encapsulates the business logic '''
+
 from django.db import transaction
 from rest_framework import serializers
 
