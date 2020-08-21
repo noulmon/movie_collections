@@ -20,7 +20,7 @@ _**MOVIE COLLECTIONS**_ is a collection creating application where the user can 
     
     If the steps are followed correctly, the server will be up and running.
  
- 4. To gather all static files(not necessary as the system does not serve any static files):
+ 4. To gather all static files(not necessary as the system does not serve any static file):
    
     ```python manage.py collectstatic```
 
