@@ -1,4 +1,4 @@
-# MOVIE COLLECTIONS: CREDY
+# MOVIE COLLECTIONS:
 
 ### Introduction:
 _**MOVIE COLLECTIONS**_ is a collection creating application where the user can register/sign in with the application and get list of movies. Once user is successfully authenticated, receives a JWT Token. User can create multiple collections of movies with a title and description. Also, user can perform CRUD operations on the collections.
